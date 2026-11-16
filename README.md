@@ -52,6 +52,7 @@ python/static_ip_check.py       # same egress IP across repeated requests
 python/sticky_checkout.py       # one session across checkout-style steps
 python/selenium_http_proxy.py   # Selenium + Chrome HTTP proxy
 python/playwright_http_proxy.py # Playwright + Chromium HTTP proxy
+python/playwright_geo_qa.py     # per-region localization QA (PROXY_URL_VN / _JP / _US)
 curl/examples.sh                # curl HTTP and SOCKS5 checks
 curl/http_vs_socks.sh           # same URL over HTTP, socks5, and socks5h
 ```
@@ -69,6 +70,7 @@ curl/http_vs_socks.sh           # same URL over HTTP, socks5, and socks5h
 - [Dùng residential proxy trong Python: rotating hay sticky session? (ví dụ với requests, httpx và Playwright)](https://viblo.asia/p/dung-residential-proxy-trong-python-rotating-hay-sticky-session-vi-du-voi-requests-httpx-va-playwright-7Z4DEWAoJnX)
 - [Proxy dân cư tĩnh (ISP): khi nào nên thuê IP cố định thay vì xoay?](https://dev.to/ipvora/proxy-dan-cu-tinh-isp-khi-nao-nen-thue-ip-co-dinh-thay-vi-xoay-1jp6)
 - [SOCKS5 hay HTTP/HTTPS proxy: chọn giao thức nào cho scraper, bot kiểm thử và công cụ dòng lệnh?](https://haiwaihuiguo.substack.com/p/socks5-hay-httphttps-proxy-chon-giao)
+- [Kiểm thử bản địa hoá và xác minh quảng cáo theo khu vực bằng Playwright + proxy dân cư](https://ipvora.substack.com/p/kiem-thu-ban-ia-hoa-va-xac-minh-quang) — code: `python/playwright_geo_qa.py`
 
 ---
 
